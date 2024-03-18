@@ -10,23 +10,14 @@ export function UsageTips() {
     setTips(
       language?.toLowerCase()?.includes('zh')
         ? [
-            '输入 / 可激活提示词搜索窗口',
-            '输入框为空时，按上箭头将填充上一条消息内容',
-            '提示词设置底部🌟可对提示词进行收藏',
-            '提示词设置底部可对提示词进行导入导出',
-            '默认非连续对话，需点击底部按钮开启',
-            '连续对话消息底部会显示编码用来定位属于哪个对话',
-            '默认开启搜索内容建议，可在设置中关闭',
-            '默认未开启回车键发送，可在设置中开启',
-            '消息底部统计数字为Token使用量',
+            '❤️ 此网站仅供内部使用，请勿share给组织之外的人员',
+            '⚠️ 上网不涉密，涉密不上网。请勿🚫将任何敏感信息提交到此网站',
+            '❔ 使用中有任何疑问，点击左下角Teams图标联系',
           ]
         : [
-            'Enter / Activate Prompt search window',
-            'When the input box is empty, press the up arrow to fill in the previous message content',
-            'Search content suggestions are enabled by default and can be disabled in settings',
-            'Enter key sending is not enabled by default, but can be enabled in settings',
-            'Non-continuous conversation is enabled by default and requires clicking the bottom button to activate',
-            'The voice button is hidden by default and will be displayed after typing KEY',
+            'This website is for internal use only. Please do not share it with individuals outside the organization.',
+            'Please do not submit any sensitive information on this website.',
+            'If you have any questions, click on the Teams icon to contact us.',
           ],
     );
   }, [language]);

@@ -1,6 +1,6 @@
 import { Button, IconButton, Input, Link } from '@chakra-ui/react';
 import {
-  IconBrandGithub,
+  IconBrandTeams,
   IconCheck,
   IconEdit,
   IconLanguageHiragana,
@@ -116,8 +116,8 @@ export function ChatPanel(props: Props) {
       footer={(
         <div className="w-full flex flex-row items-center justify-between">
           <div className="flex flex-row items-center">
-            <Link href="https://github.com/liuw5367/chatgpt-web" isExternal>
-              <IconButton aria-label="Github" variant="ghost" icon={<IconBrandGithub stroke={1.5} />} />
+            <Link href="https://teams.microsoft.com/l/chat/0/0?users=liuty24@lenovo.com" isExternal>
+              <IconButton aria-label="Teams" variant="ghost" icon={<IconBrandTeams stroke={1.5} />} />
             </Link>
             <Button
               aria-label="ChangeLanguage"

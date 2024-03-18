@@ -93,13 +93,13 @@ export function SettingPanel() {
       value: 'enterSend',
       placeholder: '',
     },
-    {
-      label: t('Access Code'),
-      value: 'accessCode',
-      placeholder: `${t('please enter')} ${t('Access Code')}`,
-    },
-    { label: 'OpenAI Host', value: 'openAIHost', placeholder: 'https://api.openai.com' },
-    { label: 'OpenAI Key', value: 'openAIKey', placeholder: `${t('please enter')} ` + `OPENAI_KEY` },
+    // {
+    //   label: t('Access Code'),
+    //   value: 'accessCode',
+    //   placeholder: `${t('please enter')} ${t('Access Code')}`,
+    // },
+    // { label: 'OpenAI Host', value: 'openAIHost', placeholder: 'https://api.openai.com' },
+    // { label: 'OpenAI Key', value: 'openAIKey', placeholder: `${t('please enter')} ` + `OPENAI_KEY` },
     { label: 'OpenAI Model', value: 'openAIModel', type: 'select', placeholder: 'gpt-3.5-turbo' },
     {
       type: 'number',
